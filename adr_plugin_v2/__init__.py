@@ -32,5 +32,5 @@ def classFactory(iface):  # pylint: disable=invalid-name
     :type iface: QgsInterface
     """
     #
-    from .adr_plugin_v1 import adr_plugin
+    from .adr_plugin_v2 import adr_plugin
     return adr_plugin(iface)
